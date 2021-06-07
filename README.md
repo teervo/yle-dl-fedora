@@ -9,7 +9,12 @@ To install, first enable the repository
 sudo dnf copr enable teervo/yle-dl
 ```
 
-To install, run
+The package depends on `ffmpeg`, which is on Fedora is provided by the [RPM Fusion](https://rpmfusion.org/) repository. If you don't yet have the repo enabled, do so by running
+```
+sudo dnf install https://mirrors.rpmfusion.org/free/fedora/rpmfusion-free-release-$(rpm -E %fedora).noarch.rpm 
+```
+
+To install `yle-dl`, run
 ```
 sudo dnf install yle-dl
 ```
