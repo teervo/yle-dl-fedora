@@ -1,5 +1,5 @@
 Name:           yle-dl
-Version:        20210917
+Version:        20211213
 Release:        1%{?dist}
 Summary:        Download videos from Yle servers
 License:        GPLv3
