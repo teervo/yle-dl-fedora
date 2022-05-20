@@ -1,5 +1,5 @@
 Name:           yle-dl
-Version:        20211213
+Version:        20220518
 Release:        1%{?dist}
 Summary:        Download videos from Yle servers
 License:        GPLv3
@@ -30,6 +30,8 @@ yle-dl is a tool for downloading media files from the video streaming services o
 %{python3_sitelib}/yle_dl*.egg-info
 
 %changelog
+* Fri May 20 2022 Teemu Tervo <teemu.tervo iki.fi>
+- Version bump
 * Sun Sep 28 2021 Teemu Tervo <teemu.tervo iki.fi>
 - Version bump
 * Sun Aug 15 2021 Teemu Tervo <teemu.tervo iki.fi>
